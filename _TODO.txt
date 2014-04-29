@@ -1,0 +1,4 @@
+- When method (httpMethodGET or httpMethodPOST) is not specified, default to POST for purposes of storing the message in order to prevent the application from crashing.
+- Rename CQMyHTTPServer to CQRemoteDbHttpServer
+- Rename CHTTPServerClient to CQHttpServerClient
+- Rename CQHTTPServer to CQHttpServer (change Atriplex as well)

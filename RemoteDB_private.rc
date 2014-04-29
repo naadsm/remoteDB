@@ -1,0 +1,35 @@
+/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
+/* DO NOT EDIT! */
+
+#include <windows.h> // include for version info constants
+
+
+//
+// TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
+//
+1 VERSIONINFO
+FILEVERSION 0,3,2,0
+PRODUCTVERSION 0,3,2,0
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+	 {
+		 BLOCK "040904E4"
+		 {
+			 VALUE "CompanyName", "Animal Population Health Institute, Colorado State University"
+			 VALUE "FileVersion", "0.3.2"
+			 VALUE "FileDescription", "NAADSM Remote Database Manager"
+			 VALUE "InternalName", ""
+			 VALUE "LegalCopyright", "Copyright 2007 - 2008 Animal Population Health Institute, Colorado State University"
+			 VALUE "LegalTrademarks", ""
+			 VALUE "OriginalFilename", "RemoteDB.exe"
+			 VALUE "ProductName", "North American Animal Disease Spread Model"
+			 VALUE "ProductVersion", "3.1"
+		 }
+	 }
+  BLOCK "VarFileInfo"
+	 {
+		 VALUE "Translation", 0x0409, 1252
+	 }
+}
+
