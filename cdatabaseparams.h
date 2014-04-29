@@ -2,7 +2,7 @@
 cdatabaseparams.h
 -----------------
 Begin: 2007/08/30
-Last revision: $Date: 2007/09/24 18:13:22 $ $Author: areeves $
+Last revision: $Date: 2007-09-24 18:13:22 $ $Author: areeves $
 Version: $Revision: 1.1 $
 Project: NAADSM remote database support
 Website: http://www.naadsm.org

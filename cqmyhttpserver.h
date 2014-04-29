@@ -2,7 +2,7 @@
 cqmyhttpserver.h
 ----------------
 Begin: 2007/03/19
-Last revision: $Date: 2007/04/25 17:56:56 $ $Author: areeves $
+Last revision: $Date: 2007-04-25 17:56:56 $ $Author: areeves $
 Version: $Revision: 1.2 $
 Project: NAADSM remote database support
 Website: http://www.naadsm.org

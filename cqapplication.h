@@ -2,7 +2,7 @@
 cqapplication.h
 ---------------
 Begin: 2007/03/19
-Last revision: $Date: 2007/09/24 18:04:50 $ $Author: areeves $
+Last revision: $Date: 2007-09-24 18:04:50 $ $Author: areeves $
 Version: $Revision: 1.3 $
 Project: NAADSM remote database support
 Website: http://www.naadsm.org

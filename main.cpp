@@ -2,8 +2,8 @@
 main.cpp
 --------
 Begin: 2007/03/19
-Last revision: $Date: 2008/09/18 22:50:44 $ $Author: areeves $
-Version: $Revision: 1.4 $
+Last revision: $Date: 2011-08-20 22:06:48 $ $Author: areeves $
+Version: $Revision: 1.4.12.1 $
 Project: NAADSM remote database support
 Website: http://www.naadsm.org
 Author: Aaron Reeves <Aaron.Reeves@colostate.edu>
@@ -19,10 +19,10 @@ Public License as published by the Free Software Foundation; either version 2 of
 #include <qdebug.h>
 #include <qstring.h>
 
-#include <gpClasses/ccmdLine.h>
-#include <gpClasses/log.h>
-#include <gpClasses/qcout.h>
-#include <gpClasses/seh.h>
+#include <qt_general_purpose/ccmdLine.h>
+#include <qt_general_purpose/log.h>
+#include <qt_general_purpose/qcout.h>
+#include <qt_general_purpose/seh.h>
 
 #include "cqapplication.h"
 #include "cdatabaseparams.h"
@@ -247,10 +247,10 @@ int main( int argc, char *argv[] ) {
   log = NULL;
   
   __SEH_TRY {  
-  	cmdLine = new CCmdLine();
+  	cmdLine = new CCmdLine( argc, argv );
   	dbParams = new CDatabaseParams();
   
-  	cmdLine->SplitLine( argc, argv );
+  	//cmdLine->SplitLine( argc, argv );
   
     if( cmdLine->HasSwitch( "--help" ) || cmdLine->HasSwitch( "-?" ) ) {
   		showHelp();
