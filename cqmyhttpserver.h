@@ -6,7 +6,7 @@ Last revision: $Date: 2007-04-25 17:56:56 $ $Author: areeves $
 Version: $Revision: 1.2 $
 Project: NAADSM remote database support
 Website: http://www.naadsm.org
-Author: Aaron Reeves <Aaron.Reeves@colostate.edu>
+Author: Aaron Reeves <aaron.reeves@naadsm.org>
 Author: Shaun Case <Shaun.Case@colostate.edu>
 --------------------------------------------------
 Copyright (C) 2007 Animal Population Health Institute at Colorado State University
